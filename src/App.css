@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-txt: #111517;
+    --color-bg: #FCFCFC;
+    --color-card-bg: #FFF;
+}
+[data-theme="dark"]{
+    --color-txt: #fff;
+    --color-bg: #202C36;
+    --color-card-bg: #2B3844;
+}
+
+body{
+    font-family: "Nunito Sans" !important;
+    font-weight: 600;
+    color: var(--color-txt);
+    background-color: var(--color-bg);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
